@@ -1,0 +1,36 @@
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+        }
+        .card {
+            border: none;
+            border-radius: 1rem;
+        }
+        #city-name {
+            color: #343a40;
+        }
+        .weather-item {
+            display: flex;
+            align-items: center;
+            font-size: 1.1rem;
+            color: #495057;
+        }
+        .weather-item i {
+            font-size: 1.5rem;
+            margin-right: 12px;
+            width: 30px; /* To align text */
+            text-align: center;
+        }
+        .bi-thermometer-half { color: #ff6b6b; }
+        .bi-wind { color: #4dabf7; }
+        .bi-droplet-fill { color: #17a2b8; }
+        .bi-cloud-rain-fill { color: #6c757d; }
+
+        .btn-primary {
+            background: linear-gradient(45deg, #0d6efd, #0dcaf0);
+            border: none;
+            transition: transform 0.2s ease-in-out;
+        }
+        .btn-primary:hover {
+            transform: scale(1.03);
+        }
